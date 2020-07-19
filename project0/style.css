@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: greenyellow;
+  color: #555;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+}
+span {
+  display: inline;
+}
+a {
+  color: white;
+  text-decoration: transparent;
+}
+table {
+  width: 50%;
+  padding: 10px;
+  margin: 20px;
+  background-color: lightgreen;
+  font-size: medium;
+  font-weight: bold;
+}
+table,
+th,
+td {
+  border: 2px solid black;
+  padding: 10px;
+}
+
+#mainheader {
+  background-color: seagreen;
+  color: white;
+  height: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-left: 100px;
+  border: 5px solid yellow;
+  margin: 0px;
+  text-shadow: black;
+}
+#secondaryHeader {
+  align-items: center;
+  background-color: green;
+  color: white;
+  display: flex;
+  height: 40px;
+  font-size: 15px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-left: 90px;
+  padding-bottom: 20px;
+  margin: 0px;
+  text-shadow: black;
+}
+
+#main-footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  height: 30px;
+}
+#showcase {
+  background-image: url("bg.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 300px;
+  margin-bottom: 30px;
+  text-align: center;
+  height: 50px;
+}
+
+.content {
+  margin: 20px;
+}
+.container {
+  padding: 10px;
+  margin-top: 0px;
+  align-content: center;
+  text-align: center;
+  text-decoration-color: black;
+  font-weight: bold;
+}
+.list {
+  background-color: gray;
+  height: 100;
+}
+.links {
+  padding: 8px;
+}
+.links :hover {
+  color: yellow;
+}
+links :visited {
+  color: black;
+}
+.page {
+  margin: 10px;
+}
+.header {
+  background-color: slategray;
+  text-decoration-color: white;
+  margin: 0 0 0 0;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-bottom: 2px tomato solid;
+  border-left: 2px tomato solid;
+  border-right: 2px tomato solid;
+  border-top: 2px tomato solid;
+  text-align: center;
+  width: auto;
+  height: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 600px) {
+  .secondaryHeader {
+    width: 100%;
+    float: none;
+    padding: 5px;
+    padding-left: 10px;
+  }
+}
